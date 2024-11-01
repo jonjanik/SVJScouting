@@ -186,7 +186,7 @@ private:
   virtual void beginLuminosityBlock(edm::LuminosityBlock const&, edm::EventSetup const&) override;
   virtual void endLuminosityBlock(edm::LuminosityBlock const&, edm::EventSetup const&) override;
   int getCharge(int pdgId);
-  bool jetID(const ScoutingPFJet &pfjet);
+  bool jetID(const Run3ScoutingPFJet &pfjet);
   bool jetIDoff(const pat::Jet &pfjet);
 
   //Era
